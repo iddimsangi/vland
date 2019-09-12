@@ -1,0 +1,153 @@
+/*Big screen to big tablets screen of 1200px*/
+@media only screen and (max-width:1200px){
+
+    .row{
+        padding: 0 2%;
+    }
+}
+/*big tablets to small screen tablets*/
+@media only screen and (max-width:1023px){
+    body{
+        font-size: 18px;
+    }
+    section{
+    padding: 60px 0;
+}
+    .lst-trs div{
+    margin-right: 10px;
+    height: 45px;
+    width: 45px;
+}
+    .icon-small {
+    font-size: 20px;
+    margin-right: 10px;
+}
+    .logo{
+    width:200px;
+    height: auto;
+    }
+}
+/*small screen to small tablets*/
+@media only screen and (max-width:767px){
+    h1{
+    font-size: 120%;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+    }
+    .main-heading {
+    width: 90%;
+}
+.long-copy {
+    font-size: 80%;
+    width: 96%;
+    margin-left: 3%;
+}
+    .box h3{
+        text-align: center;
+    }
+    .main-nav {
+        float: left;
+        display: none;
+        margin-top: 10px;
+   }
+    nav-icon{
+        display: inline-block;
+    }
+    .main-nav li{
+        display: block;
+    }
+    .main-nav li a:link,
+    .main-nav li a:visited{
+        border: 0;
+    }
+    .map {
+    width: 90%;
+}
+    .icon-small {
+    font-size: 18px;
+    margin-right: 5px;
+}
+    .logo {
+    width:250px;
+    margin-top: 15px;
+}
+    .col{
+        width: 100%;
+    }
+    h2{
+    font-size: 110%;
+    margin-bottom: 15px;
+}
+    h3{
+    font-size: 95%;
+}
+    .price-box div p{
+    font-size: 140%;
+}
+    .icon-big {
+    font-size: 40px;
+    margin-left:45%;
+}
+    .map {
+    width: 90%;
+    margin-bottom: 15px;
+}
+    .list-map:first-child {
+    text-align: center;
+    }
+    .list-map:last-child{
+        margin-left:15%;
+    }
+    blockquote{
+    padding: 5%;
+   font-size: 90%;
+}
+    blockquote:before{
+    content: "\201C";
+    font-size: 200%;
+    position: absolute;
+    top: -15px;
+    left: 0;
+}
+    .price-box{
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 20px;
+}
+    .lst-trs div{
+        height: 30px;
+        width: 30px;
+    }
+    .lst-trs p{
+        font-size: 75%;
+    }
+.form-box {
+    width: 90%;
+}
+    .main-nav-footer li,
+    .social-icons li{
+    display: inline-block;
+    margin-right: 20px;
+}
+    .social-icons li:last-child{
+    margin-right:10px;
+}
+    .nav-icon i{
+    color: aliceblue;
+    display:inline-block;
+}
+}
+/*small tablets to phones*/
+@media only screen and (max-width:480px){
+    .footer-navs div:last-child {
+    padding-top: 65px;
+}
+   .list-map:last-child{
+    padding-left: 0px;
+    padding-top:25px;
+} 
+    .logo{
+    width:200px;
+    height: auto;
+    }
+}
